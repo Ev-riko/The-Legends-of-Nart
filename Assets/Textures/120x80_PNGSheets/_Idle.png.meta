@@ -306,6 +306,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: _Idle_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1200
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcbdb389034f0b419193b9fbdc92ed6
+      internalID: -594888115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -319,6 +340,7 @@ TextureImporter:
     nameFileIdTable:
       _Idle_0: 288587837
       _Idle_1: 921366818
+      _Idle_10: -594888115
       _Idle_2: 10274059
       _Idle_3: -1503277696
       _Idle_4: 1617147251
