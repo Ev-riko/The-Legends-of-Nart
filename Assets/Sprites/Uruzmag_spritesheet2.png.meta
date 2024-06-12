@@ -1,0 +1,1412 @@
+fileFormatVersion: 2
+guid: 4a3058d7771d34445aba50058d63b70d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1190
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9000fb000c207b45888777fb1187225
+      internalID: -1266093320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1190
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e65119e6d2dce748a5d4cb590702962
+      internalID: 1239344223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_2
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1190
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d667fb40c16227b4fad4f3d5612202ca
+      internalID: -957849040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_3
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1190
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc916c28cbc626e49b6ccd593716ecfa
+      internalID: -179770378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_4
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1190
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28392b8c3fa5db4b884678eb79b3c9d
+      internalID: 32461138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_5
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1190
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1342a470fade32442b45d080af463280
+      internalID: 1687289922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1020
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e909891c39cb48e4f9ab91ddc7cadf95
+      internalID: -1184582070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1020
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4003dc7d49527e4dbb682983fb2c60f
+      internalID: 26138005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_8
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1020
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c351512672b1542adf26d3881d545a
+      internalID: 1900775643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_9
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1020
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8392a13d7f548504ea0966c2159cc0f3
+      internalID: -2068749256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_10
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1020
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67860d1c8012f324ab254e899e871239
+      internalID: 332673309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 850
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2145ef392e42344dae0fd3740827a9e
+      internalID: -89430466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 850
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fa20ba0dbe4eb44b7942201ba6a5b3
+      internalID: 1340683274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_13
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 850
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a3c6e31d8a2f343b7b8d9dfc159bf9
+      internalID: 2025540416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_14
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 850
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543b0f5244f484540ac009d987d1c5cd
+      internalID: -1439372075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 850
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbda95c1110adf4f99b66312cf2052c
+      internalID: -1181905557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_16
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 850
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642946d9257234246b42dfe9ea3faa0d
+      internalID: 672096124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_17
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 850
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffccb1b5a2c93ac42ae691d755ceecc1
+      internalID: 1734513070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_18
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 850
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb40e182a4ec6704aabaa0ccbc4bf89a
+      internalID: -1429675756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_19
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 850
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92575df663b40354491f7188cf6fd437
+      internalID: -289590197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_20
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 850
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4f5b631a595ea408a28e915d371b0d
+      internalID: -1127240758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_21
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 850
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35200b5876c0bcb4d8b1589d446f92b9
+      internalID: -2117034563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_22
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 850
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67844045804dccd42bb929c52a33f8fc
+      internalID: -964369410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_23
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 850
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521ea5712a1092745bb4fc85ce2b9611
+      internalID: -595980986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_24
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 850
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d90edfaf2148754b9669ef003e1f88c
+      internalID: -641962349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 680
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9080f3bfa5af9440a8e4e60cefb9f29
+      internalID: 1972137033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_26
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 680
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699cda907f87a6c4a8d354577b2760de
+      internalID: -458028060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_27
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 680
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b93336950259640b86cc0029464cdd
+      internalID: 1534826868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_28
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 680
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e1d1d690d5f58449dac3184b0c5d70
+      internalID: -1445823016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_29
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 680
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9d7fecb679b0e49895fe2313727f6d
+      internalID: 538634676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_30
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 680
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0167a2243ef945348acc1b5223d04fba
+      internalID: 295542017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 510
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5425ea6153a0f0e428504ecdecf9d98d
+      internalID: -495093984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_32
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 510
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2151945c95e5d84ba8b82afae3a3e8c
+      internalID: 346975423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_33
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 510
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b95faf59c884d4bbf8d9ef30257d9d
+      internalID: -148975777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_34
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 510
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b6f4dac4ada1b4da749c0dc030792b
+      internalID: -1462887033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_35
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 510
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb5d7f4761a36a45a35d6b2fd3318b0
+      internalID: 1720347689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_36
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 510
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbde956846c3d24e9cb4ac4f0b1072a
+      internalID: -1845411560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_37
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 510
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d4dabdb5359b940a5eaa6d2dc97ed1
+      internalID: -1382598222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_38
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 510
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e419be212bc9e4a4583d9f01ef248098
+      internalID: -833479613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63538fb4d9a94d649b5e323e47f0323f
+      internalID: -2076868206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_40
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 340
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b4b2f88a4de174e86a81ce96ba9bab
+      internalID: 1717699159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_41
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 340
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebb3f553a5a60146be129e74f5b0edb
+      internalID: -151874794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_42
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 340
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bdc11ebad25e8443892ee936c46bf97
+      internalID: -1693680454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_43
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 340
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ebe989a9b95c045bd2222cc3e4674a
+      internalID: -921340879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c05be3390c2084d8c5db3298421c9f
+      internalID: 701965244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_45
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 170
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f57bd5c3d4d22a45a67494b27cb77c8
+      internalID: -1352210034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_46
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 170
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f484575a5ce21341b42e3a5c2812380
+      internalID: 1860750107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_47
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 170
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109ac591787edf54496cf81068a89812
+      internalID: 471019160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_48
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 170
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ea1cabf36325b4aa8ce148bca22309
+      internalID: 1128298391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_49
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 170
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c9bbc870651e0459ccab5368abfee6
+      internalID: 526503253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_50
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 170
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0efc55fbf9d2eb44a9bc4120841346de
+      internalID: -1754476771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_51
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 170
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be88c0b3e1e19b4ab956d58a134e141
+      internalID: -1574275557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_52
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 170
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190bbb602ebb42640a3f17f102fd026f
+      internalID: 1968913239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7afc929ba70ebc46b657f999a5387c9
+      internalID: -420019233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_54
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92127c86bc9fa9247b2aab1d26c607d0
+      internalID: -173161633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_55
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4406c28ff77d797418ccf1756436cb0f
+      internalID: -1560536976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_56
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e042d8f4c46430a4885b66a4ed682154
+      internalID: 2024576556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_57
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ca6fb584638274d82b3c9796b6a3dd
+      internalID: 621874305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uruzmag_spritesheet2_58
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0b365aadee84d40ad98aab5dc7e43e
+      internalID: 1815382140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Uruzmag_spritesheet2_0: -1266093320
+      Uruzmag_spritesheet2_1: 1239344223
+      Uruzmag_spritesheet2_10: 332673309
+      Uruzmag_spritesheet2_11: -89430466
+      Uruzmag_spritesheet2_12: 1340683274
+      Uruzmag_spritesheet2_13: 2025540416
+      Uruzmag_spritesheet2_14: -1439372075
+      Uruzmag_spritesheet2_15: -1181905557
+      Uruzmag_spritesheet2_16: 672096124
+      Uruzmag_spritesheet2_17: 1734513070
+      Uruzmag_spritesheet2_18: -1429675756
+      Uruzmag_spritesheet2_19: -289590197
+      Uruzmag_spritesheet2_2: -957849040
+      Uruzmag_spritesheet2_20: -1127240758
+      Uruzmag_spritesheet2_21: -2117034563
+      Uruzmag_spritesheet2_22: -964369410
+      Uruzmag_spritesheet2_23: -595980986
+      Uruzmag_spritesheet2_24: -641962349
+      Uruzmag_spritesheet2_25: 1972137033
+      Uruzmag_spritesheet2_26: -458028060
+      Uruzmag_spritesheet2_27: 1534826868
+      Uruzmag_spritesheet2_28: -1445823016
+      Uruzmag_spritesheet2_29: 538634676
+      Uruzmag_spritesheet2_3: -179770378
+      Uruzmag_spritesheet2_30: 295542017
+      Uruzmag_spritesheet2_31: -495093984
+      Uruzmag_spritesheet2_32: 346975423
+      Uruzmag_spritesheet2_33: -148975777
+      Uruzmag_spritesheet2_34: -1462887033
+      Uruzmag_spritesheet2_35: 1720347689
+      Uruzmag_spritesheet2_36: -1845411560
+      Uruzmag_spritesheet2_37: -1382598222
+      Uruzmag_spritesheet2_38: -833479613
+      Uruzmag_spritesheet2_39: -2076868206
+      Uruzmag_spritesheet2_4: 32461138
+      Uruzmag_spritesheet2_40: 1717699159
+      Uruzmag_spritesheet2_41: -151874794
+      Uruzmag_spritesheet2_42: -1693680454
+      Uruzmag_spritesheet2_43: -921340879
+      Uruzmag_spritesheet2_44: 701965244
+      Uruzmag_spritesheet2_45: -1352210034
+      Uruzmag_spritesheet2_46: 1860750107
+      Uruzmag_spritesheet2_47: 471019160
+      Uruzmag_spritesheet2_48: 1128298391
+      Uruzmag_spritesheet2_49: 526503253
+      Uruzmag_spritesheet2_5: 1687289922
+      Uruzmag_spritesheet2_50: -1754476771
+      Uruzmag_spritesheet2_51: -1574275557
+      Uruzmag_spritesheet2_52: 1968913239
+      Uruzmag_spritesheet2_53: -420019233
+      Uruzmag_spritesheet2_54: -173161633
+      Uruzmag_spritesheet2_55: -1560536976
+      Uruzmag_spritesheet2_56: 2024576556
+      Uruzmag_spritesheet2_57: 621874305
+      Uruzmag_spritesheet2_58: 1815382140
+      Uruzmag_spritesheet2_6: -1184582070
+      Uruzmag_spritesheet2_7: 26138005
+      Uruzmag_spritesheet2_8: 1900775643
+      Uruzmag_spritesheet2_9: -2068749256
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -15,6 +15,19 @@ namespace TheLegendsOfNart.Creatures
             _hero.SetDirection(direction);
         }
 
+        public void OnJump(InputAction.CallbackContext context)
+        {
+            if (context.started)
+            {
+                _hero.StartJumping();
+            }
+            if (context.canceled)
+            {
+                _hero.PerformJumping();
+            }
+            
+        }
+
         public void OnSaySomething(InputAction.CallbackContext context)
         {
             if (context.performed)

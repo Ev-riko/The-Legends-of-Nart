@@ -33,7 +33,7 @@ namespace TheLegendsOfNart.Creatures
         [SerializeField] private int _superThrowParticles;
         [SerializeField] private float _superThrowDelay;
 
-        
+
 
         private int CoinsCount => _session.Data.inventory.Count("Coin");
         private int SwordCount => _session.Data.inventory.Count("Sword");
@@ -43,19 +43,23 @@ namespace TheLegendsOfNart.Creatures
         private bool _allowDoubleJump;
         private bool _isOnWall;
         private bool _superThrow;
+        private bool _JumpCharged;
 
         private float _defaultGravityScale;
 
         private static readonly int ThrowKey = Animator.StringToHash("throw");
         private static readonly int IsOnWall = Animator.StringToHash("is-on-wall");
+        private static readonly int IsChargeJump = Animator.StringToHash("is-charge-jump");
+        private static readonly int JumpCharged = Animator.StringToHash("jump-charged");
 
         private GameSession _session;
         private HealthComponent _health;
-        
+
+
         protected override void Awake()
         {
             base.Awake();
-            _defaultGravityScale = Rigitbody.gravityScale;
+            _defaultGravityScale = Body.gravityScale;
         }
 
         private void Start()
@@ -92,12 +96,12 @@ namespace TheLegendsOfNart.Creatures
             {
 
                 _isOnWall = true;
-                Rigitbody.gravityScale = 0;
+                Body.gravityScale = 0;
             }
             else
             {
                 _isOnWall = false;
-                Rigitbody.gravityScale = _defaultGravityScale;
+                Body.gravityScale = _defaultGravityScale;
             }
 
             Animator.SetBool(IsOnWall, _isOnWall);
@@ -105,33 +109,33 @@ namespace TheLegendsOfNart.Creatures
 
 
 
-        protected override float CalculateYVelosity()
-        {
-            var isJumpPressing = Direction.y > 0;
+        //protected override float CalculateYVelosity()
+        //{
+        //    var isJumpPressing = Direction.y > 0;
 
-            if (IsGrounded || _isOnWall)
-            {
-                _allowDoubleJump = true;
-            }
+        //    if (IsGrounded || _isOnWall)
+        //    {
+        //        _allowDoubleJump = true;
+        //    }
 
-            if (!isJumpPressing && _isOnWall)
-            {
-                return 0;
-            }
+        //    if (!isJumpPressing && _isOnWall)
+        //    {
+        //        return 0;
+        //    }
 
-            return base.CalculateYVelosity();
-        }
+        //    return base.CalculateYVelosity();
+        //}
 
-        protected override float CalculateJumpVelosity(float yVelocity)
-        {
-            if (!IsGrounded && _allowDoubleJump && !_isOnWall)
-            {
-                _allowDoubleJump = false;
-                DoJumpVfx();
-                return _jumpSpeed;
-            }
-            return base.CalculateJumpVelosity(yVelocity);
-        }
+        //protected override float CalculateJumpVelosity(float yVelocity)
+        //{
+        //    if (!IsGrounded && _allowDoubleJump && !_isOnWall)
+        //    {
+        //        _allowDoubleJump = false;
+        //        DoJumpVfx();
+        //        return _jumpSpeed;
+        //    }
+        //    return base.CalculateJumpVelosity(yVelocity);
+        //}
         public void SaySomething()
         {
             Debug.Log("Something");
@@ -168,7 +172,7 @@ namespace TheLegendsOfNart.Creatures
 
             _hitDrop.SetCount(numCoinsDispose);
             _hitDrop.CalculateDrop();
-            
+
         }
 
         public void Interact()
@@ -192,7 +196,7 @@ namespace TheLegendsOfNart.Creatures
 
         public override void Attack()
         {
-            if (SwordCount <= 0) return;
+            //if (SwordCount <= 0) return;
 
             base.Attack();
         }
@@ -210,7 +214,7 @@ namespace TheLegendsOfNart.Creatures
 
         public void OnDoThrow()
         {
-            if (_superThrow) 
+            if (_superThrow)
             {
                 var numThrows = Mathf.Min(_superThrowParticles, SwordCount - 1);
                 StartCoroutine(DoSuperThrow(numThrows));
@@ -264,6 +268,33 @@ namespace TheLegendsOfNart.Creatures
 
             Animator.SetTrigger(ThrowKey);
             _throwCooldown.Reset();
+        }
+
+        public void StartJumping()
+        {
+            Animator.SetBool(IsChargeJump, true);
+            Animator.SetBool(JumpCharged, false);
+            Debug.Log("StartJump");
+        }
+
+        public void PerformJumping()
+        {
+            Animator.SetBool(IsChargeJump, false);
+
+            Debug.Log("PerformJump");
+
+            if (!_JumpCharged) return;
+
+            _JumpCharged = false;
+            base.DoJump(_jumpSpeed);
+
+            Debug.Log("DoJump");
+        }
+
+        public void ChargeJump()
+        {
+            Animator.SetBool(JumpCharged, true);
+            _JumpCharged = true;  
         }
     }
 }

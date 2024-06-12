@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: jumpFallInbetween
+  m_Name: idleToWalk
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,15 +21,19 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 709598620, guid: 686b625d30a1b95419e2ab5365c1124f, type: 3}
-    - time: 0.1
-      value: {fileID: -1311462591, guid: 686b625d30a1b95419e2ab5365c1124f, type: 3}
+      value: {fileID: 26138005, guid: 4a3058d7771d34445aba50058d63b70d, type: 3}
+    - time: 0.125
+      value: {fileID: 1900775643, guid: 4a3058d7771d34445aba50058d63b70d, type: 3}
+    - time: 0.25
+      value: {fileID: -2068749256, guid: 4a3058d7771d34445aba50058d63b70d, type: 3}
+    - time: 0.375
+      value: {fileID: 332673309, guid: 4a3058d7771d34445aba50058d63b70d, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
-  m_SampleRate: 10
+  m_SampleRate: 8
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -46,14 +50,16 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 709598620, guid: 686b625d30a1b95419e2ab5365c1124f, type: 3}
-    - {fileID: -1311462591, guid: 686b625d30a1b95419e2ab5365c1124f, type: 3}
+    - {fileID: 26138005, guid: 4a3058d7771d34445aba50058d63b70d, type: 3}
+    - {fileID: 1900775643, guid: 4a3058d7771d34445aba50058d63b70d, type: 3}
+    - {fileID: -2068749256, guid: 4a3058d7771d34445aba50058d63b70d, type: 3}
+    - {fileID: 332673309, guid: 4a3058d7771d34445aba50058d63b70d, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.2
+    m_StopTime: 0.5
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -72,4 +78,18 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0
+    functionName: LockMovement
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.125
+    functionName: UnlockMovement
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

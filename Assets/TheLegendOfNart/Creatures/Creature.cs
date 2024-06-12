@@ -20,11 +20,12 @@ namespace TheLegendsOfNart.Creatures
         [SerializeField] protected SpawnListComponent _particles;
         
         protected Vector2 Direction;
-        protected Rigidbody2D Rigitbody;
+        protected Rigidbody2D Body;
         protected Animator Animator;
         //protected PlaySoundsComponent Sounds;
         protected bool IsGrounded;
         private bool _isJumping;
+        private bool _isCanMove;
 
         private static readonly int IsGroundKey = Animator.StringToHash("is-ground");
         private static readonly int IsRunningKey = Animator.StringToHash("is-running");
@@ -34,7 +35,8 @@ namespace TheLegendsOfNart.Creatures
 
         protected virtual void Awake()
         {
-            Rigitbody = GetComponent<Rigidbody2D>();
+            UnlockMovement();
+            Body = GetComponent<Rigidbody2D>();
             Animator = GetComponent<Animator>();
             //Sounds = GetComponent<PlaySoundsComponent>();
         }
@@ -52,48 +54,59 @@ namespace TheLegendsOfNart.Creatures
         private void FixedUpdate()
         {
             var xVelocity = Direction.x * _speed;
-            var yVelocity = CalculateYVelosity();
-            Rigitbody.velocity = new Vector2(xVelocity, yVelocity);
+            xVelocity *= _isCanMove ? 1 : 0;
+            //var yVelocity = CalculateYVelosity();
+            Body.velocity = new Vector2(xVelocity, Body.velocity.y);
 
-            Animator.SetFloat(VerticalVelocityKey, Rigitbody.velocity.y);
+            Animator.SetFloat(VerticalVelocityKey, Body.velocity.y);
             Animator.SetBool(IsRunningKey, Direction.x != 0);
             Animator.SetBool(IsGroundKey, IsGrounded);
 
             UpdateSpriteDirection(Direction);
         }
 
-        protected virtual float CalculateYVelosity()
+        public void LockMovement()
         {
-            var yVelocity = Rigitbody.velocity.y;
-            var isJumpPressing = Direction.y > 0;
-
-            if (IsGrounded)
-            {
-                _isJumping = false;
-            }            
-
-            if (isJumpPressing)
-            {
-                _isJumping = true;
-                var isFalling = Rigitbody.velocity.y <= 0.001f;
-                yVelocity = isFalling ? CalculateJumpVelosity(yVelocity) : yVelocity;
-            }
-            else if (Rigitbody.velocity.y > 0 && _isJumping)
-            {
-                yVelocity *= 0.5f;
-            }
-            return yVelocity;
+            _isCanMove = false;
         }
 
-        protected virtual float CalculateJumpVelosity(float yVelocity)
+        public void UnlockMovement()
+        {
+            _isCanMove = true;
+        }
+
+        //protected virtual float CalculateYVelosity()
+        //{
+        //    var yVelocity = Body.velocity.y;
+        //    var isJumpPressing = Direction.y > 0;
+
+        //    if (IsGrounded)
+        //    {
+        //        _isJumping = false;
+        //    }            
+
+        //    if (isJumpPressing)
+        //    {
+        //        _isJumping = true;
+        //        var isFalling = Body.velocity.y <= 0.001f;
+        //        yVelocity = isFalling ? CalculateJumpVelosity(yVelocity) : yVelocity;
+        //    }
+        //    else if (Body.velocity.y > 0 && _isJumping)
+        //    {
+        //        yVelocity *= 0.5f;
+        //    }
+        //    return yVelocity;
+        //}
+
+        protected virtual float DoJump(float yVelocity)
         {
             if (IsGrounded)
             {
-                yVelocity += _jumpSpeed;
-                Debug.Log("Jump");
+                Body.AddForce(Vector2.up * yVelocity, ForceMode2D.Impulse);
+                //Debug.Log("Jump");
                 DoJumpVfx();
             }
-            
+
             return yVelocity;
         }
 
@@ -120,7 +133,7 @@ namespace TheLegendsOfNart.Creatures
         {
             _isJumping = false;
             Animator.SetTrigger(Hit);
-            Rigitbody.velocity = new Vector2(Rigitbody.velocity.x, _damageJumpSpd);            
+            Body.velocity = new Vector2(Body.velocity.x, _damageJumpSpd);            
         }
 
         public virtual void Attack()
