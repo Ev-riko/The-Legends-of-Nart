@@ -10,7 +10,7 @@ namespace TheLegendsOfNart.Components.Health
         [SerializeField] private UnityEvent _onDamage;
         [SerializeField] public UnityEvent _onDie;
         [SerializeField] private UnityEvent _onHeal;
-        [SerializeField] private HealthChangeEvent _onChange;
+        //[SerializeField] private HealthChangeEvent _onChange;
 
         private int _health;
 
@@ -23,7 +23,7 @@ namespace TheLegendsOfNart.Components.Health
         {
             if (_health <= 0) return;
 
-            _onChange?.Invoke(_health);
+            //_onChange?.Invoke(_health);
             if (healthDelta > 0) 
             {   
                 _health = System.Math.Min(_maxHealth, _health + healthDelta);
@@ -50,7 +50,7 @@ namespace TheLegendsOfNart.Components.Health
         [ContextMenu("Update Health")]
         public void UpdateHealth()
         {
-            _onChange?.Invoke(_health);
+            //_onChange?.Invoke(_health);
         }
 #endif
 

@@ -6,15 +6,6 @@
             "id": "26a01514-615f-4776-80a2-d9bd3d0fc2c6",
             "actions": [
                 {
-                    "name": "SaySomething",
-                    "type": "Button",
-                    "id": "2c73753b-4fbc-43bb-901b-f8ad766c2ce5",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "Movement",
                     "type": "Value",
                     "id": "d703bb16-1f06-45ce-a4fe-8bf4871f4898",
@@ -42,15 +33,6 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Throw",
-                    "type": "Button",
-                    "id": "3c5093d0-7fdc-407f-bcfa-50f9d245acfc",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "Heai",
                     "type": "Button",
                     "id": "9821743c-1529-4e2a-9766-3308ba0845f9",
@@ -67,20 +49,18 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Roll",
+                    "type": "Button",
+                    "id": "708b5a3e-dcd1-4623-8522-8bb2974866a2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
-                {
-                    "name": "",
-                    "id": "ed9d59cf-2d9c-4780-a15f-54bca0b60a41",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "SaySomething",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
                 {
                     "name": "2D Vector",
                     "id": "cf6d2578-4509-4803-af58-38271b751359",
@@ -160,17 +140,6 @@
                 },
                 {
                     "name": "",
-                    "id": "1092e06b-fa64-4c7a-ab95-ad5ddc8f3c2c",
-                    "path": "<Keyboard>/g",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Throw",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "9b33ed07-da4e-4f57-91cb-93bfaed95f95",
                     "path": "<Keyboard>/q",
                     "interactions": "",
@@ -188,6 +157,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b549c29a-dd13-45a8-8b39-ef186cb861fd",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Roll",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

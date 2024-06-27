@@ -46,17 +46,17 @@ namespace TheLegendsOfNart.Creatures
                 _hero.Attack();
         }
 
-        public void OnThrow(InputAction.CallbackContext context) 
-        {
-            if (context.started)
-            {
-                _hero.StartThrowing();
-            }
-            if (context.canceled)
-            {
-                _hero.PerformThrowing();
-            }
-        }
+        //public void OnThrow(InputAction.CallbackContext context) 
+        //{
+        //    if (context.started)
+        //    {
+        //        _hero.StartThrowing();
+        //    }
+        //    if (context.canceled)
+        //    {
+        //        _hero.PerformThrowing();
+        //    }
+        //}
 
         public void OnHeal(InputAction.CallbackContext context)
         {
