@@ -48,7 +48,7 @@ namespace TheLegendsOfNart.Components.GoBased
             var forceVector = AngleToVectorInSector(randomAngle);
             rigitbody.AddForce(forceVector * _speed, ForceMode2D.Impulse);
         }
-
+#if UNITY_EDITOR
         private void OnDrawGizmosSelected()
         {
             var position = transform.position;
@@ -64,7 +64,7 @@ namespace TheLegendsOfNart.Components.GoBased
             Handles.color = new Color(1f, 1f, 1f, 0.1f);
             Handles.DrawSolidArc(position, Vector3.forward, rightBound, _sectorAngle, 1);
         }
-
+#endif
         private Vector2 AngleToVectorInSector(float angle)
         {
             var middleAngleDelta = (180 - _sectorRotation - _sectorAngle) / 2;

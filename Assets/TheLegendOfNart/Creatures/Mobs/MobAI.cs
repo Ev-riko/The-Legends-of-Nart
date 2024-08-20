@@ -52,7 +52,7 @@ namespace TheLegendsOfNart.Creatures
         {
             LookAtHero();
             Debug.Log("Exclamation");
-            _particles.Spawn("Exclamation");
+            //_particles.Spawn("Exclamation");
             yield return new WaitForSeconds(_alarmDelay);
 
             StartState(GoToHero());
@@ -60,6 +60,7 @@ namespace TheLegendsOfNart.Creatures
 
         private void LookAtHero()
         {
+            Debug.Log("LookAtHero");
             var direction = GetDiractionToTarget();
             _creature.SetDirection(Vector2.zero);
             _creature.UpdateSpriteDirection(direction);
@@ -69,7 +70,7 @@ namespace TheLegendsOfNart.Creatures
         {
             while (_vision.IsTouchingLayer)
             {
-                //Debug.Log("GoToHero");
+                Debug.Log("GoToHero");
                 if (_canAttack.IsTouchingLayer)
                 {
                     StartState(Attack());
@@ -82,7 +83,7 @@ namespace TheLegendsOfNart.Creatures
             }
 
             _creature.SetDirection(Vector2.zero);
-            _particles.Spawn("MissHero");
+            //_particles.Spawn("MissHero");
             yield return new WaitForSeconds(_MissHeroCooldown);
 
             StartState(_patrol.DoPatrol());

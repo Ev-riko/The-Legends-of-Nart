@@ -1,12 +1,7 @@
 
-using UnityEditor;
-using UnityEditor.Animations;
 using UnityEngine;
-using System;
-using System.Collections;
 using TheLegendsOfNart.Components.ColliderBased;
 using TheLegendsOfNart.Utils;
-using TheLegendsOfNart.Components;
 using TheLegendsOfNart.Components.Model;
 using TheLegendsOfNart.Components.Health;
 

@@ -146,7 +146,7 @@ namespace TheLegendsOfNart.Creatures
         {
             Debug.Log("OnAttack");
             _attackRange.Check();
-            _particles.Spawn("Attack");
+            //_particles.Spawn("Attack");
             
         }
     }
